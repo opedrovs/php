@@ -36,6 +36,7 @@ i.material-icons {
     display: none;
     text-align: center;
     padding: 5px;
+    transition-duration: .5s;
 }
 
 i.material-icons:hover {
@@ -81,7 +82,7 @@ main {
 
 .title-container p {
     margin-top: 8px;
-    color: #adadad;
+    color: #7c7c7c;
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -124,7 +125,7 @@ main {
 
 .post-description {
     margin: 10px 0;
-    color: #838383;
+    color: #646464;
 }
 
 .tags-container a {
