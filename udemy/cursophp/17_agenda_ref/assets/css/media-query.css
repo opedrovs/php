@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 765px) {
+    header {
+        display: block;
+    }
+
+    #logo {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .burguer {
+        display: block;
+    }
+    
+    .nav-list {
+        display: block;
+        text-align: center;
+    }
+    
+    .nav-link {
+        padding: 10px;
+        display: block;
+        border-top: #033b70 1px dotted;
+        border-bottom: #033b70 1px dotted;
+    }
+
+    .nav-link:hover {
+        background-color: white;
+        color: #033b70;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        padding: 20px;
+    }
+}

@@ -1,4 +1,5 @@
 <?php
+    include_once("./config/connect.php");
 
     $id = $_GET["id"];
 
@@ -15,4 +16,3 @@
     header("Location: index.php");
 
     die();
-    

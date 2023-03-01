@@ -11,7 +11,6 @@
 ?>
 
     <main>
-
         <?php
             if(isset($_SESSION['flash_message'])) {
                 $message = $_SESSION['flash_message'];
@@ -19,7 +18,7 @@
                 echo "<div class='alert alert-success'>$message</div>";
             }
         ?>
-
+        
         <h1>Minha agenda</h1>
 
         <div class="table-content">

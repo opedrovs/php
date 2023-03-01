@@ -31,7 +31,20 @@ header {
     width: 80px;
 }
 
-.navbar {
+.burguer {
+    display: none;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.burguer:hover {
+    background-color: #023666;
+}
+
+.nav-list {
     display: flex;
     gap: 25px;
     list-style-type: none;
@@ -41,6 +54,7 @@ header {
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition-duration: .3s;
 }
 
 .nav-link:hover {
@@ -65,6 +79,7 @@ main > p {
 
 .table-content {
     margin: auto;
+    overflow-x: auto;
 }
 
 .table-content table {
